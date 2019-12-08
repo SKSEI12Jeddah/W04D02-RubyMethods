@@ -210,7 +210,7 @@ This method should take one argument (sentence), a String, and return an Integer
 
 ------
 
-### 5. Current Date and Time
+### 6. Current Date and Time
 
 #### Specs
 Write a ruby method that returns current date and time.
