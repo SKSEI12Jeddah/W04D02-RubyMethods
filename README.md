@@ -156,17 +156,18 @@ Here are the most important rules
   * _dangerous_ means either that it can mutate the object _or_ that can raise an error
 * Do not use parens when calling a method without args
 
+<br>
 
 # Labs
 
-### Write a method that accepts a first and a last name from the user and then says Hello to a full name 
+### 1. Write a method that accepts a first and a last name from the user and then says Hello to a full name 
 
 -------
 
-### Write a method that swaps the values of two variables around and prints the new values
+### 2. Write a method that swaps the values of two variables around and prints the new values
 
 ------
-### Find-max
+### 3. Find-max
 #### Specs
 Implement a Ruby method max that finds the maximum/highest number between two numbers
 This method should take two arguments (a, b), both Integers, and return another Integer, the highest number.
@@ -181,7 +182,7 @@ This method should take two arguments (a, b), both Integers, and return another 
 
 ----------
 
-### A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak.
+### 4. A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak.
 
 #### Specs
 Implement a Ruby method palindrome? that checks if a given word is a palindrome
@@ -198,7 +199,7 @@ return statement in methods
 Predicate methods (methods that return true or false)
 ------
 
-### Word-counter
+### 5. Word-counter
 
 #### Specs
 Implement a Ruby method word_counter that counts the number of words in a given sentence
