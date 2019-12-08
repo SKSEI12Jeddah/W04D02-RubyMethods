@@ -152,8 +152,62 @@ Here are the most important rules
 
 * A method should end with a `?` if an only if it always returns a boolean
   * These are called _predicate methods_
-* A method ending in `!` should be a _dangerous_ version of the method sans `!`
+* A method ending in `!` should be a _dangerous_ version of the method
   * _dangerous_ means either that it can mutate the object _or_ that can raise an error
-* Don't name methods like `get_foo`, `set_foo`. They should be `foo` and `foo=`
-* **Do** use `attr_reader` and `attr_writer`
 * Do not use parens when calling a method without args
+
+
+# Labs
+
+### Write a method that accepts a first and a last name from the user and then says Hello to a full name 
+
+-------
+
+### Write a method that swaps the values of two variables around and prints the new values
+
+------
+### Find-max
+#### Specs
+Implement a Ruby method max that finds the maximum/highest number between two numbers
+This method should take two arguments (a, b), both Integers, and return another Integer, the highest number.
+`max(3, 9)` should return 9
+
+`max(5, 1)` should return 5
+
+>Key Learning Points
+* Methods
+* Conditionals
+* Method Parameters vs. Arguments
+
+----------
+
+### A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak.
+
+#### Specs
+Implement a Ruby method palindrome? that checks if a given word is a palindrome
+This method should take one argument (word), a String, and return a Boolean (true of false), telling us if the given word is a `palindrome` or not
+You can assume the one argument is a single word
+It should not be affected by capital letters
+`palindrome("racecar")` should return true
+
+`palindrome("samar")` should return false
+
+> Key Learning Points
+String methods
+return statement in methods
+Predicate methods (methods that return true or false)
+------
+
+### Word-counter
+
+#### Specs
+Implement a Ruby method word_counter that counts the number of words in a given sentence
+This method should take one argument (sentence), a String, and return an Integer representing the number of words in the sentence
+`word_counter("The quick brown fox jumps over the lazy dog")` should return 9
+
+`word_counter("Bonjour Je suis Samar")` should return 4
+
+------
+
+
+
