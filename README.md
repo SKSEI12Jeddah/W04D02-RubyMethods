@@ -182,7 +182,7 @@ This method should take two arguments (a, b), both Integers, and return another 
 
 ----------
 
-### 4. A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak. (Hint: You can find the Javascript equivalent in 14)
+### 4. A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak.
 
 #### Specs
 Implement a Ruby method palindrome? that checks if a given word is a palindrome
@@ -250,27 +250,8 @@ const reverseIt = () => {
 
 ------
 
-### 9. Swap Em 
 
-Write a method that swaps the values of two variables around. Here's the javascript:
-
-```
-const swapEm = () => {
-  let a = 10;
-  let b = 30;
-  let temp;
-
-  temp = b;
-  b = a;
-  a = temp;
-
-  alert("a is now " + a + ", and b is now " + b);
-};
-```
-
-------
-
-### 10. Multiply Array 
+### 9. Multiply Array 
 
 Write a method that multiplies all numbers in a given array and returns the final product. Here's the javascript:
 
@@ -291,7 +272,7 @@ const multiplyArray = (ary) => {
 
 ------
 
-### 11. Fizz Buzzer 
+### 10. Fizz Buzzer 
 
 Write a method that takes a number argument and returns "fizz" if the number is divisible by three, "buzz" if the number is divisible by five, and "fizzbuzz" if it's divisible by both. Here's the javascript:
 
@@ -311,7 +292,7 @@ const fizzbuzzer = (x) => {
 
 ------
 
-### 12. Nth Fibonacci 
+### 11. Nth Fibonacci 
 
 Write a method that finds the fibonacci number at the nth position and returns it. Here is the javascript:
 
@@ -332,7 +313,7 @@ const nthFibonacciNumber = () => {
 
 ------
 
-### 13. Search Array 
+### 12. Search Array 
 
 Write a method that searches through an array for a value and returns true or false depending on whether or not the value is present in the array. Here is the javascript:
 
@@ -351,25 +332,7 @@ const searchArray = (array, value) => {
 
 ------
 
-### 14. Palindrome 
-
-Write a method that checks whether or not a string is a palindrome. Here is the javascript:
-
-```
-const isPalindrome = (str) => {
-  for(let i = 0; i < str.length/2; i++){
-    if(str[i] != str[str.length-i-1]){
-      return false;
-      break;
-    }
-  }
-  return true;
-};
-```
-
-------
-
-### 15. hasDupes
+### 13. hasDupes
 
 Write a method that checks whether or not an array has any duplicates. Here is the javascript:
 
