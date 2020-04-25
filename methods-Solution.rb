@@ -40,7 +40,15 @@ puts max(3 , 0)
 puts  max(3, 9) #should return 9
 puts  max(5, 1) #should return 5
 
-
+//Another working solution
+def max(num1 , num2)
+    num1.to_i 
+    if num1.to_i < num2.to_i
+    return num2.to_i 
+    else 
+    return num1.to_i
+    end
+end 
 
 # 4. A Palindrome is a word or phrase which reads the same backward or forward, such as madam or kayak.
 # Implement a Ruby method palindrome? that checks if a given word is a palindrome
